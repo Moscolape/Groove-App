@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import {ReactComponent as AGbaby} from "../../assets/adekunle gold.svg"
 import {ReactComponent as BurnaBoy} from "../../assets/burna boy.svg"
 import {ReactComponent as ColdOutside} from "../../assets/Rectangle 3546.svg"
@@ -16,6 +17,7 @@ import { Adekunle, Africa, Buju, Gold, Grad1, Grad2, Grad3, OluwaGbona, Pic1, Pi
 
 
 const VibesComponent = () => {
+
     return (
         <Vibes>
             <OluwaGbona>
@@ -29,16 +31,19 @@ const VibesComponent = () => {
                 <p>Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage...</p>
             </Singers1>
 
-            <Gold>
-                <AGbaby/>
-            </Gold>
-            <Pic2>
-                <Adekunle src={AG} alt=""/>
-            </Pic2>
-            <Singers2>
-                <h3>Daily Vibes 2</h3>
-                <p>Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd...</p>
-            </Singers2>
+            <div>
+                <Gold>
+                    <AGbaby/>
+                </Gold>
+                <Pic2>
+                    <Adekunle src={AG} alt=""/>
+                </Pic2>
+                <Singers2>
+                    <h3>Daily Vibes 2</h3>
+                    <p>Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd...</p>
+                </Singers2>
+            </div>
+
 
             <Buju>
                 <ColdOutside/>

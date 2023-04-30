@@ -1,4 +1,6 @@
 import React from "react";
+import { gsap } from "gsap";
+
 import UserPhoto from '../../assets/Ellipse 17593userPhoto.png';
 import { All, Fav, Favourites, Hide, Library, Liked, Line, List, Loud, Played, Playlist, Recent, Search, SecondLine, Sidebar, Song, ThirdIcon, UserDiv, UserPic, UserText } from "./sidebar.styles";
 
@@ -16,10 +18,19 @@ import FavSongs from "../fav-songs/fav-songs.component";
 
 
 const SideBarComponent = () => {
+
+    const onHover = ({ currentTarget }) => {
+        gsap.to(currentTarget, { rotation: 360, cursor: 'pointer' });
+    };
+
+    const onLeave = ({ currentTarget }) => {
+        gsap.to(currentTarget, { rotation: 0, cursor: 'pointer' });
+    };
+
     return (
         <Sidebar>
             <UserDiv>
-                <UserPic src={UserPhoto} alt=""/>
+                <UserPic onMouseOver={onHover} onMouseLeave={onLeave} src={UserPhoto} alt=""/>
                 <UserText>Hey! Aleem</UserText>
             </UserDiv>
             <All>
