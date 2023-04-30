@@ -7,6 +7,10 @@ export const Sidebar = styled.div`
     width: 29.5%;
     position: fixed;
     z-index: 300;
+
+    @media screen and (max-width: 800px) {
+        background-image: none;
+    }
 `
 
 export const UserPic = styled.img`
@@ -15,6 +19,13 @@ export const UserPic = styled.img`
     height: 62px;
     left: 31px;
     top: 18px;
+
+    @media screen and (max-width: 800px) {
+        left: 23px;
+        top: 21px;
+        width: 49px;
+        height: 49px;
+    } 
 `
 
 export const UserText = styled.span`
@@ -27,7 +38,11 @@ export const UserText = styled.span`
     font-size: 16px;
     line-height: 19px;
     color: #D9D9D9;
-    `
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+`
 
 export const UserDiv = styled.div`
     box-sizing: border-box;
@@ -40,6 +55,12 @@ export const UserDiv = styled.div`
     top: 0px;
     
     background: #0F0F0F;
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
+        height: 83px;
+        /* z-index: 500; */
+    }
 `
 
 export const ThirdIcon = styled.span`
@@ -102,6 +123,10 @@ export const All = styled.div`
         background-color: black;    
         border-radius: 10px;       
         border: 1px solid #FBBA12;  
+    }
+
+    @media screen and (max-width: 800px) {
+        display: none;
     }
 `
 

@@ -3,18 +3,30 @@ import styled from "styled-components";
 export const Second = styled.section`
     position: absolute;
     top: 420px;
-`
+
+    @media screen and (max-width: 800px) {
+        top: 230px;
+    }
+`;
 
 export const Again = styled.div`
     position: absolute;
     top: 0px;
     left: 74.5%;
-`
+
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+`;
 
 export const Last = styled.div`
     position: absolute;
     top: 420px;
     left: 74.5%;
+
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
 `
 
 export const Main = styled.div`

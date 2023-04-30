@@ -7,6 +7,10 @@ export const SearchBar = styled.div`
     position: absolute;
     z-index: 200;
     top: 0;
+
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
 `
 
 export const SearchIt = styled.div`

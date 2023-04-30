@@ -26,6 +26,16 @@ export const Vibes = styled.div`
     left: 337px;
     padding-bottom: 20px;
     overflow-x: hidden;
+
+    @media screen and (max-width: 800px) {
+        transform: scale(0.45);
+        left: -195px;
+        top: 280px;
+    }
+
+    @media screen and (max-width: 319px) {
+        transform: scale(0.42);
+    }
 `
 
 export const Pic1 = styled.div`
