@@ -19,7 +19,15 @@ const FavSongs = () => {
 
     return (
         <Span>
-            {FavouriteMusic.map((item, index) => <Paragraph onMouseEnter={onEnter} onMouseLeave={onLeave} key={index}>{item}</Paragraph>)}
+            {FavouriteMusic.map((item, index) => 
+                <Paragraph 
+                onMouseEnter={onEnter} 
+                onMouseLeave={onLeave} 
+                key={index}
+                >
+                    {item}
+                </Paragraph>
+                )}
         </Span>
     )
 };

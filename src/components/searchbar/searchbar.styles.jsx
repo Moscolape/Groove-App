@@ -11,21 +11,8 @@ export const SearchBar = styled.div`
     @media screen and (max-width: 800px) {
         display: none;
     }
-`
+`;
 
-export const SearchIt = styled.div`
-    width: 300px;
-    height: 56px;
-    position: absolute;
-    top: 20px;
-    left: 483px;
-    background: none;
-    color: #D9D9D9;
-    font-family: 'Bw Modelica';
-    font-size: 16px;
-    outline: none;
-    border: 1px solid #0f0f0f;
-`
 
 export const Arrow1 = styled.span`
     position: absolute;
@@ -43,4 +30,19 @@ export const Search = styled.span`
     position: absolute;
     top: 40px;
     left: 500px;
+    display: block;
 `
+export const SearchIt = styled.input`
+    width: 300px;
+    height: 56px;
+    position: absolute;
+    top: 20px;
+    left: 483px;
+    background: none;
+    color: #D9D9D9;
+    font-family: 'Bw Modelica';
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #0f0f0f;
+    padding-left: 16px;
+`;

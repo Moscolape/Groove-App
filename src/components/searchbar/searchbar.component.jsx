@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+
 import { gsap } from "gsap";
 
 import { Arrow1, Arrow2, Search, SearchBar, SearchIt } from "./searchbar.styles";
@@ -9,6 +11,18 @@ import { ReactComponent as SearchSong } from "../../assets/search.svg";
 
 
 const SearchBarComponent = () => {
+
+    const [isFocused, setIsFocused] = useState(false);
+
+    function removeSearchIcon () {
+        setIsFocused(true);
+    }
+
+    function addSearchIcon (e) {
+        if(e.target.value === "") {
+            setIsFocused(false);
+        }
+    }
 
     const onEnter = ({ currentTarget }) => {
         gsap.to(currentTarget, { scale: 1.2, cursor: 'pointer' });
@@ -28,9 +42,9 @@ const SearchBarComponent = () => {
                 <RightArrow/>
             </Arrow2>
 
-            <SearchIt />
+            <SearchIt onFocus={removeSearchIcon} onBlur={addSearchIcon}/>
 
-            <Search>
+            <Search style={{display: isFocused ? 'none' : 'block'}}>
                 <SearchSong/>
             </Search>
         </SearchBar>

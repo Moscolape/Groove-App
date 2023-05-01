@@ -63,7 +63,7 @@ export const TemsDiv = styled.div`
     border: 1px solid #707070;
 `
 
-export const Singers3 = styled.div`
+export const Singers = styled.div`
     position: absolute;
     bottom: 8px;
     left: 21px;
