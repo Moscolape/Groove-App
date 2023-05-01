@@ -5,17 +5,17 @@ import { gsap } from "gsap";
 import { Paragraph, Span } from "./fav-songs.styles";
 
 
-const FavSongs = () => {
+const FavSongs: React.FC = () => {
 
     // array of favourite songs
     const FavouriteMusic = ['Riffs & Runs','African Heat','Gidi Nights', 'Running out of Playlist names...', 'Saturday was a Good Day', 'Gidi Nights', 'Riffs & Runs','African Heat','Gidi Nights', 'Running out of Playlist names...', 'Saturday was a Good Day', 'Gidi Nights']
 
     // gsap functions for animation
-    const onEnter = ({ currentTarget }) => {
+    const onEnter = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { color: '#FBBA12', cursor: 'pointer' });
     };
 
-    const onLeave = ({ currentTarget }) => {
+    const onLeave = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { color: '#D9D9D9' });
     };
 

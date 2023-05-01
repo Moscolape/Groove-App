@@ -12,7 +12,7 @@ import {ReactComponent as RightArrow} from "../../assets/Group 3513.svg";
 import { ReactComponent as SearchSong } from "../../assets/search.svg";
 
 
-const SearchBarComponent = () => {
+const SearchBarComponent: React.FC = () => {
 
     // code block handling a little search input functionality
     const [isFocused, setIsFocused] = useState(false);
@@ -21,18 +21,18 @@ const SearchBarComponent = () => {
         setIsFocused(true);
     }
 
-    function addSearchIcon (e) {
+    function addSearchIcon (e: any) {
         if(e.target.value === "") {
             setIsFocused(false);
         }
     }
 
     // gsap animation for the next and previuos buttons
-    const onEnter = ({ currentTarget }) => {
+    const onEnter = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { scale: 1.2, cursor: 'pointer' });
     };
 
-    const onLeave = ({ currentTarget }) => {
+    const onLeave = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { scale: 1 });
     };
 

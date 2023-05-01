@@ -13,7 +13,7 @@ import BottomNav from '../bottom-nav/bottom-nav.component';
 import { Second, Last, Again } from "./main-section.styles";
 
 
-const MainComponent = () => {
+const MainComponent: React.FC = () => {
     return (
         <>
             <SearchBarComponent/>

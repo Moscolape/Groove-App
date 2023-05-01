@@ -6,7 +6,7 @@ import {ReactComponent as TextIcon} from "../../assets/Text.svg";
 import {ReactComponent as Laycons} from "../../assets/Omah Lay Name Tag-min 1.svg";
 
 
-const UduxComponent = () => {
+const UduxComponent: React.FC = () => {
     return (
         <Udux>
             <Text>

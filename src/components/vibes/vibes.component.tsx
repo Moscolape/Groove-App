@@ -25,14 +25,14 @@ import LinearGradient from "../../assets/Rectangle 3545.svg"
 import { Buju, Grad1, Grad2, Grad3, Singers, Tems, TemsDiv, Vibes } from "./vibes.styles";
 
 
-const VibesComponent = () => {
+const VibesComponent: React.FC = () => {
 
     // gsap animation applicable to each of the music components
-    const onEnter = ({ currentTarget }) => {
+    const onEnter = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { scale: 0.95, cursor: 'pointer' });
     };
 
-    const onLeave = ({ currentTarget }) => {
+    const onLeave = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { scale: 1 });
     };
 

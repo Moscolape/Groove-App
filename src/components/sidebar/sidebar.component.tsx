@@ -23,14 +23,14 @@ import FavSongs from "../fav-songs/fav-songs.component";
 
 
 
-const SideBarComponent = () => {
+const SideBarComponent: React.FC = () => {
 
     // gsp animation for the user's photo
-    const onHover = ({ currentTarget }) => {
+    const onHover = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { rotation: 360, cursor: 'pointer' });
     };
 
-    const onLeave = ({ currentTarget }) => {
+    const onLeave = ({ currentTarget }: any) => {
         gsap.to(currentTarget, { rotation: 0, cursor: 'pointer' });
     };
 

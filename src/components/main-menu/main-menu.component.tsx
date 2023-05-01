@@ -8,7 +8,7 @@ import { Discover, Home, Icon, Menu, SecondIcon } from "./main-menu.styles";
 
 
 
-const MainMenu = () => {
+const MainMenu: React.FC = () => {
     return (
         <Menu>
             <Icon><HomeIcon/></Icon>
