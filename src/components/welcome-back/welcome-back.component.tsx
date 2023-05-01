@@ -1,10 +1,10 @@
 import React from "react";
 
 // styled-component imported for this component
-import { WelcomeDiv } from "./welcome-back.component.styles";
+import { WelcomeDiv } from "./welcome-back.styles";
 
 // welcome component
-const WelcomeComponent = () => {
+const WelcomeComponent: React.FC = () => {
     return(
         <WelcomeDiv>
             <h2>Welcome Back!</h2>

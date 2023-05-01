@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackgroundImage from "../../assets/Vector.svg"
+import BackgroundImage from "../../assets/Vector.svg";
 
 
 // mobile view styling for bottom navigation

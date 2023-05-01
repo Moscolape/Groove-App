@@ -10,7 +10,7 @@ import { ReactComponent as Favs } from "../../assets/favsongs.svg";
 import { Nav } from "./bottom-nav.styles";
 
 // This components is for mobile view only
-const BottomNav = () => {
+const BottomNav: React.FC = () => {
     return (
         <Nav>
             <HomeIcon/>

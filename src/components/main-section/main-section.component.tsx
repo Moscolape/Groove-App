@@ -6,6 +6,8 @@ import UduxComponent from "../udux/udux.component";
 import WelcomeComponent from "../welcome-back/welcome-back.component";
 import VibesComponent from "../vibes/vibes.component";
 import CheersComponent from "../cheers/cheers.component";
+import BottomNav from '../bottom-nav/bottom-nav.component';
+
 
 // styled-components imported for this component
 import { Second, Last, Again } from "./main-section.styles";
@@ -32,6 +34,7 @@ const MainComponent = () => {
                     <VibesComponent/>
                 </Last>
             </div>
+            <BottomNav/>
         </>
     )
 }

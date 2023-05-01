@@ -4,7 +4,7 @@ import React from "react";
 import { CheersDiv } from "./cheers.styles";
 
 // cheers component
-const CheersComponent = () => {
+const CheersComponent: React.FC = () => {
     return(
         <CheersDiv>
             <h2>Cheers to the Weekend</h2>
