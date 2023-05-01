@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import UduxImage from "../../assets/udux.svg";
+import UduxImage from "../../assets/udux-light.jpg";
 
 export const Udux = styled.div`
     background: url(${UduxImage});
+    background-position: right top;
     height: 255px;
     width: 68.5%;
     object-fit: cover;
@@ -16,8 +17,8 @@ export const Udux = styled.div`
         height: 159px;
         top: 121px;
         left: 0;
-        object-position: right;
         z-index: 5;
+        background-position: right right;
     }
 
     @media screen and (max-width: 346px) {
