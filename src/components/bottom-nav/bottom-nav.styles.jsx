@@ -10,7 +10,7 @@ export const Nav = styled.div`
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: rgba(20,20,20,0.6);
+    background: rgba(20,20,20,0.8);
     background-image: url(${BackgroundImage});
 
     @media screen and (max-width: 800px) {

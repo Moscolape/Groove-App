@@ -13,7 +13,7 @@ import { Nav } from "./bottom-nav.styles";
 const BottomNav = () => {
     return (
         <Nav>
-            <HomeIcon />
+            <HomeIcon/>
             <DiscoveryIcon/>
             <LibraryIcon/>
             <Favs/>

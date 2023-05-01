@@ -24,17 +24,21 @@ export const Vibes = styled.div`
     position: absolute;
     top: 484px;
     left: 337px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     overflow-x: hidden;
 
     @media screen and (max-width: 800px) {
         transform: scale(0.45);
-        left: -195px;
+        left: -190px;
         top: 280px;
     }
 
     @media screen and (max-width: 319px) {
         transform: scale(0.42);
+    }
+
+    @media screen and (max-width: 290px) {
+        left: -200px;
     }
 `
 
