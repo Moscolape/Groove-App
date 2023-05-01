@@ -1,51 +1,67 @@
 import React from "react";
+import { gsap } from "gsap";
 
-
-import {ReactComponent as AGbaby} from "../../assets/adekunle gold.svg"
-import {ReactComponent as BurnaBoy} from "../../assets/burna boy.svg"
 import {ReactComponent as ColdOutside} from "../../assets/Rectangle 3546.svg"
 
 
+import Burna from "../../assets/burna.svg";
+import Orange from "../../assets/orange.svg";
+import OrangeDown from "../../assets/orange-down.svg";
+
+
 import AG from "../../assets/Rectangle 3584.png";
-import Giant from "../../assets/Giant.png";
+import Red from "../../assets/red-sides.svg";
+import RedDown from "../../assets/red-down.svg";
+
+
 import Fave from "../../assets/Rectangle 3584.svg"
 import Gradient from "../../assets/Rectangle 3548.svg"
 import LinearGradient from "../../assets/Rectangle 3545.svg"
 
 
-import { Adekunle, Africa, Buju, Gold, Grad1, Grad2, Grad3, OluwaGbona, Pic1, Pic2, Singers1, Singers2, Singers3, Tems, TemsDiv, Vibes } from "./vibes.styles";
+import { Buju, Grad1, Grad2, Grad3, Singers3, Tems, TemsDiv, Vibes } from "./vibes.styles";
 
 
 const VibesComponent = () => {
 
+    const onEnter = ({ currentTarget }) => {
+        gsap.to(currentTarget, { scale: 0.9, cursor: 'pointer' });
+    };
+
+    const onLeave = ({ currentTarget }) => {
+        gsap.to(currentTarget, { scale: 1 });
+    };
+
     return (
         <Vibes>
-            <OluwaGbona>
-                <BurnaBoy/>
-            </OluwaGbona>
-            <Pic1>
-                <Africa src={Giant} alt=""/>
-            </Pic1>
-            <Singers1>
-                <h3>Daily Vibes 1</h3>
-                <p>Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage...</p>
-            </Singers1>
+            <Buju onMouseEnter={onEnter} onMouseLeave={onLeave}>
+                <ColdOutside/>
+                <TemsDiv></TemsDiv>
+                <Tems src={Burna} alt=""/>
+                <Grad1 src={Orange} alt=""/>
+                <Grad2 src={Orange} alt=""/>
+                <Grad3 src={OrangeDown} alt=""/>
+                <Singers3>
+                    <h3>Daily Vibes 1</h3>
+                    <p>Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage...</p>
+                </Singers3>
+            </Buju>
 
-            <div>
-                <Gold>
-                    <AGbaby/>
-                </Gold>
-                <Pic2>
-                    <Adekunle src={AG} alt=""/>
-                </Pic2>
-                <Singers2>
+            <Buju onMouseEnter={onEnter} onMouseLeave={onLeave}>
+                <ColdOutside/>
+                <TemsDiv></TemsDiv>
+                <Tems src={AG} alt=""/>
+                <Grad1 src={Red} alt=""/>
+                <Grad2 src={Red} alt=""/>
+                <Grad3 src={RedDown} alt=""/>
+                <Singers3>
                     <h3>Daily Vibes 2</h3>
                     <p>Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, SGawd...</p>
-                </Singers2>
-            </div>
+                </Singers3>
+            </Buju>
 
 
-            <Buju>
+            <Buju onMouseEnter={onEnter} onMouseLeave={onLeave}>
                 <ColdOutside/>
                 <TemsDiv></TemsDiv>
                 <Tems src={Fave} alt=""/>

@@ -1,16 +1,5 @@
 import styled from "styled-components";
 
-export const Gold = styled.div`
-    width: 226px;
-    height: 285px;
-    padding-right: 24px;
-`
-
-export const OluwaGbona = styled.div`
-    width: 226px;
-    height: 285px;
-    padding-right: 24px;
-`
 
 export const Buju = styled.div`
     position: relative;
@@ -30,7 +19,7 @@ export const Vibes = styled.div`
     @media screen and (max-width: 800px) {
         transform: scale(0.45);
         left: -190px;
-        top: 280px;
+        top: 260px;
     }
 
     @media screen and (max-width: 319px) {
@@ -40,68 +29,6 @@ export const Vibes = styled.div`
     @media screen and (max-width: 290px) {
         left: -200px;
     }
-`
-
-export const Pic1 = styled.div`
-    position: absolute;
-    top: 101px;
-    left: 17px;
-    width: 162px;
-    height: 162px;
-`
-
-export const Singers1 = styled.div`
-    position: absolute;
-    top: 185px;
-    left: 21px;
-    color: #ffffff;
-    width: 178px;
-    font-family: 'Bw Modelica';
-
-    h3 {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-`
-
-export const Singers2 = styled.div`
-    position: absolute;
-    top: 185px;
-    left: 272px;
-    color: #ffffff;
-    width: 178px;
-    font-family: 'Bw Modelica';
-
-    h3 {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-`
-
-export const Africa = styled.img`
-    position: relative;
-    left: 13.5px;
-    bottom: 80px;
-`
-
-export const Pic2 = styled.div`
-    position: absolute;
-    top: 101px;
-    left: 268px;
-    width: 162px;
-    height: 162px;
-`
-
-export const Adekunle = styled.img`
-    position: relative;
-    left: 13.5px;
-    bottom: 80px;
 `
 
 export const Tems = styled.img`
