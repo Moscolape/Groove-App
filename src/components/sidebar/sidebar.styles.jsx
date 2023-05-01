@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import BackgroundImage from "../../assets/Vector.svg"
 
+
+// styling for the entire sidebar
 export const Sidebar = styled.div`
     height: 100vh;
     background-image: url(${BackgroundImage});
@@ -13,6 +15,7 @@ export const Sidebar = styled.div`
     }
 `
 
+// styling for user div component
 export const UserPic = styled.img`
     position: relative;
     width: 62px;
@@ -59,10 +62,10 @@ export const UserDiv = styled.div`
     @media screen and (max-width: 800px) {
         width: 100%;
         height: 83px;
-        /* z-index: 500; */
     }
 `
 
+// styling for everything under the All component
 export const ThirdIcon = styled.span`
     position: relative;
     top: 142px;

@@ -3,8 +3,10 @@ import { useState } from "react";
 
 import { gsap } from "gsap";
 
+// styled-components imported for this component
 import { Arrow1, Arrow2, Search, SearchBar, SearchIt } from "./searchbar.styles";
 
+// svgs imported as React components from Figma file
 import {ReactComponent as LeftArrow} from "../../assets/Group 3512.svg";
 import {ReactComponent as RightArrow} from "../../assets/Group 3513.svg";
 import { ReactComponent as SearchSong } from "../../assets/search.svg";
@@ -12,6 +14,7 @@ import { ReactComponent as SearchSong } from "../../assets/search.svg";
 
 const SearchBarComponent = () => {
 
+    // code block handling a little search input functionality
     const [isFocused, setIsFocused] = useState(false);
 
     function removeSearchIcon () {
@@ -24,6 +27,7 @@ const SearchBarComponent = () => {
         }
     }
 
+    // gsap animation for the next and previuos buttons
     const onEnter = ({ currentTarget }) => {
         gsap.to(currentTarget, { scale: 1.2, cursor: 'pointer' });
     };

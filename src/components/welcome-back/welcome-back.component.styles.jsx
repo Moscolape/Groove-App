@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-
+// styling for welcome component
 export const WelcomeDiv = styled.header`
     color: white;
     position: absolute;

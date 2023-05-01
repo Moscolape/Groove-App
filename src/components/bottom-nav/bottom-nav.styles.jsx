@@ -2,6 +2,7 @@ import styled from "styled-components";
 import BackgroundImage from "../../assets/Vector.svg"
 
 
+// mobile view styling for bottom navigation
 export const Nav = styled.div`
     display: none;
 

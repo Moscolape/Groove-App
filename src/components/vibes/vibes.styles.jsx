@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 
+// styling applicable to each of the music components
 export const Buju = styled.div`
     position: relative;
     width: 226px;

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+// styling for icons
 export const Icon = styled.span`
     position: relative;
     top: 44px;
@@ -12,7 +14,7 @@ export const SecondIcon = styled.span`
     right: 26px;
 `
 
-
+// styling for the main-menu texts
 export const Home = styled.span`
     position: relative;
     top: 42px;
@@ -41,6 +43,7 @@ export const Discover = styled.span`
     color: #D9D9D9;
 `
 
+// styling for the main-menu divs
 export const Menu = styled.div`
     position: relative;
     top: 97px;

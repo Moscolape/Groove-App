@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// styling for favourite songs component
 export const Span = styled.p`
     position: relative;
     top: 70px;

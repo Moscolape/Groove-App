@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+// additional styling for reused vibe component
 export const Second = styled.section`
     position: absolute;
     top: 420px;
@@ -9,6 +11,7 @@ export const Second = styled.section`
     }
 `;
 
+// styling for duplicate vibe components along horizontal axis
 export const Again = styled.div`
     position: absolute;
     top: 0px;
@@ -28,24 +31,3 @@ export const Last = styled.div`
         display: none;
     }
 `
-
-export const Main = styled.div`
-    overflow-x: hidden;
-`
-
-// export const Flex = styled.div`
-    
-//     ::-webkit-scrollbar {
-//         width: 1px;             
-//     }
-
-//     ::-webkit-scrollbar-track {
-//         background: #FBBA12;
-//     }
-
-//     ::-webkit-scrollbar-thumb {
-//         background-color: black;    
-//         border-radius: 10px;       
-//         border: 1px solid #FBBA12;  
-//     }
-// `

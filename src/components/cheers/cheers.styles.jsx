@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-
+// styling for cheers component
 export const CheersDiv = styled.header`
     color: white;
     position: absolute;

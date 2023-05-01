@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import UduxImage from "../../assets/udux-light.jpg";
 
+
+// styling for the component's background
 export const Udux = styled.div`
     background: url(${UduxImage});
     background-position: right top;
@@ -30,6 +32,7 @@ export const Udux = styled.div`
     }
 `;
 
+// positioning of the udux text
 export const Text = styled.span`
     position: absolute;
     top: 38px;
@@ -40,6 +43,7 @@ export const Text = styled.span`
     }
 `
 
+// positioning of the omah lay caligraph
 export const OmahLay = styled.span`
     position: absolute;
     bottom: 14px;

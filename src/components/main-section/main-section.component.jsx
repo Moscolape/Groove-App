@@ -1,17 +1,19 @@
 import React from "react";
 
+// import components that lie on the main section
 import SearchBarComponent from "../searchbar/searchbar.component";
 import UduxComponent from "../udux/udux.component";
 import WelcomeComponent from "../welcome-back/welcome-back.component";
 import VibesComponent from "../vibes/vibes.component";
 import CheersComponent from "../cheers/cheers.component";
 
-import { Second, Last, Again, Main } from "./main-section.styles";
+// styled-components imported for this component
+import { Second, Last, Again } from "./main-section.styles";
 
 
 const MainComponent = () => {
     return (
-        <Main>
+        <>
             <SearchBarComponent/>
             <UduxComponent/>
             <WelcomeComponent/>
@@ -30,7 +32,7 @@ const MainComponent = () => {
                     <VibesComponent/>
                 </Last>
             </div>
-        </Main>
+        </>
     )
 }
 
