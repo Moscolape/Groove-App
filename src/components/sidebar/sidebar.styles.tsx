@@ -46,6 +46,7 @@ export const UserText = styled.span`
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        display: none;
     }
 `
 
