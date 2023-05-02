@@ -39,6 +39,7 @@ export const Tems = styled.img`
     left: 31px;
     bottom: 100px;
 `
+
 export const Grad1 = styled.img`
     position: absolute;
     left: 0px;

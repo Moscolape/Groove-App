@@ -35,7 +35,7 @@ export const UserPic = styled.img`
 
 export const UserText = styled.span`
     position: absolute;
-    right: 89px;
+    left: 40%;
     top: 39px;
     font-family: 'Bw Modelica';
     font-style: normal;
