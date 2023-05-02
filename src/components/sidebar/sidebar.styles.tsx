@@ -117,15 +117,15 @@ export const All = styled.div`
 
     height: 100vh;
 
-    ::-webkit-scrollbar {
+    ::-webkit-scrollbar, ::-moz-scrollbar {
         width: 1px;             
     }
 
-    ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track, ::-moz-scrollbar-track {
         background: #FBBA12;
     }
 
-    ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb, ::-moz-scrollbar-thumb {
         background-color: black;    
         border-radius: 10px;       
         border: 1px solid #FBBA12;  
