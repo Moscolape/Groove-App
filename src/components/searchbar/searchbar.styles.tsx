@@ -22,7 +22,7 @@ export const Arrow1 = styled.span`
 export const Arrow2 = styled.span`
     position: absolute;
     top: 28px;
-    left: 35.7%;
+    left: 35.8%;
 `
 
 // styled-component encapsulating the search icon

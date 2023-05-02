@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import '../../fonts/BwModelica-Light.woff';
+
 
 // styling for icons
 export const Icon = styled.span`
@@ -11,7 +13,7 @@ export const Icon = styled.span`
 export const SecondIcon = styled.span`
     position: relative;
     top: 73px;
-    right: 26px;
+    right: 34px;
 `
 
 // styling for the main-menu texts

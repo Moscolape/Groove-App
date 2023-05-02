@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import '../../fonts/BwModelica-Light.woff';
+
 
 // styling applicable to each of the music components
 export const Buju = styled.div`

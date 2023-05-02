@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import '../../fonts/BwModelica-Light.woff'
 
 // styling for favourite songs component
 export const Span = styled.p`

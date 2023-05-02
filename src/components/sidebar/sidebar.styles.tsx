@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import BackgroundImage from "../../assets/Vector.svg"
 
+import '../../fonts/BwModelica-Light.woff';
+
 
 // styling for the entire sidebar
 export const Sidebar = styled.div`
