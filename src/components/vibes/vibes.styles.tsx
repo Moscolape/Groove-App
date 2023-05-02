@@ -13,7 +13,7 @@ export const Vibes = styled.div`
     display: flex;
     position: absolute;
     top: 484px;
-    left: 32%;
+    left: 33%;
     padding-bottom: 100px;
     overflow-x: hidden;
 

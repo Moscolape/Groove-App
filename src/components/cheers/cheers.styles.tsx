@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const CheersDiv = styled.header`
     color: white;
     position: absolute;
-    left: 32%;
+    left: 33%;
     top: 815px;
 
     @media screen and (max-width: 800px) {

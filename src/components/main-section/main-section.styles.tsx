@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Second = styled.section`
     position: absolute;
     top: 420px;
-    left: 32%;
+    left: 33%;
 
     @media screen and (max-width: 800px) {
         top: 230px;
