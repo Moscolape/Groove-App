@@ -9,6 +9,7 @@ export const Second = styled.section`
 
     @media screen and (max-width: 800px) {
         top: 230px;
+        left: 0%;
     }
 `;
 
