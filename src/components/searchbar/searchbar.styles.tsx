@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 // styled-component created to hide the whole div on mobile view
 export const SearchBar = styled.div`
-    position: absolute;
+    position: relative;
     z-index: 400;
-    
+
 
     @media screen and (max-width: 800px) {
         display: none;
@@ -16,20 +16,20 @@ export const SearchBar = styled.div`
 export const Arrow1 = styled.span`
     position: absolute;
     top: 28px;
-    left: 305px;
+    left: 30.3%;
 `
 
 export const Arrow2 = styled.span`
     position: absolute;
     top: 28px;
-    left: 361px;
+    left: 35.7%;
 `
 
 // styled-component encapsulating the search icon
 export const Search = styled.span`
     position: absolute;
     top: 40px;
-    left: 500px;
+    left: 49.8%;
     display: block;
 `
 
@@ -39,7 +39,7 @@ export const SearchIt = styled.input`
     height: 56px;
     position: absolute;
     top: 20px;
-    left: 483px;
+    left: 48%;
     background: none;
     color: #D9D9D9;
     font-family: 'Bw Modelica';
