@@ -5,6 +5,7 @@ import styled from "styled-components";
 export const Second = styled.section`
     position: absolute;
     top: 420px;
+    left: 32%;
 
     @media screen and (max-width: 800px) {
         top: 230px;
@@ -15,7 +16,7 @@ export const Second = styled.section`
 export const Again = styled.div`
     position: absolute;
     top: 0px;
-    left: 74.5%;
+    left: 106.8%;
 
     @media screen and (max-width: 800px) {
         display: none;
@@ -25,7 +26,7 @@ export const Again = styled.div`
 export const Last = styled.div`
     position: absolute;
     top: 420px;
-    left: 74.5%;
+    left: 106.8%;
 
     @media screen and (max-width: 800px) {
         display: none;

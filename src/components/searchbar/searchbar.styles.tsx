@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 // styled-component created to hide the whole div on mobile view
 export const SearchBar = styled.div`
+    position: absolute;
+    z-index: 400;
+    
+
     @media screen and (max-width: 800px) {
         display: none;
     }

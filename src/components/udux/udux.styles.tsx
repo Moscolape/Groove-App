@@ -10,9 +10,9 @@ export const Udux = styled.div`
     width: 68.5%;
     object-fit: cover;
     position: absolute;
-    z-index: 400;
+    z-index: 398;
     top: 105px;
-    left: 310px;
+    left: 31%;
 
     @media screen and (max-width: 800px) {
         width: 100%;
